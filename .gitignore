@@ -2,3 +2,4 @@ node_modules
 dist
 start.sh
 *.env
+**/.DS_Store
