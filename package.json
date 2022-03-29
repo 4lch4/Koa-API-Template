@@ -1,8 +1,12 @@
 {
   "name": "koa-api-template",
+  "displayName": "Koa API Template",
   "version": "0.0.0",
   "description": "A simple koa api template.",
   "main": "dist/index.js",
+  "license": "MIT",
+  "repository": "git@github.com:4lch4/Koa-API-Template.git",
+  "homepage": "https://github.com/4lch4/Koa-API-Template",
   "scripts": {
     "start": "node dist/index.js",
     "docker:start": "./start.sh",
@@ -25,7 +29,6 @@
     "email": "hey@4lch4.email",
     "url": "https://4lch4.com"
   },
-  "license": "MIT",
   "dependencies": {
     "@4lch4/koa-oto": "^1.3.0",
     "@4lch4/koa-router-printer": "^1.4.2",
