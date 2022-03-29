@@ -8,11 +8,11 @@
   "repository": "git@github.com:4lch4/Koa-API-Template.git",
   "homepage": "https://github.com/4lch4/Koa-API-Template",
   "scripts": {
-    "start": "node dist/index.js",
-    "docker:start": "./start.sh",
-    "docker:stop": "docker stop koa-api-template && docker rm koa-api-template",
-    "docker:build": "docker build -t 4lch4/koa-api-template:latest .",
-    "docker:refresh": "npm run docker:build && npm run docker:stop && npm run docker:start",
+    "build": "make build",
+    "start": "make start",
+    "stop": "make stop",
+    "rebuild": "make rebuild",
+    "logs": "make logs",
     "package": "tsc",
     "build:watch": "tsc --watch"
   },
