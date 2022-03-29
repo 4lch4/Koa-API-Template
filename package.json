@@ -7,13 +7,15 @@
   "license": "MIT",
   "repository": "git@github.com:4lch4/Koa-API-Template.git",
   "homepage": "https://github.com/4lch4/Koa-API-Template",
+  "packageManager": "pnpm@6.32.3",
   "scripts": {
-    "build": "make build",
-    "start": "make start",
-    "stop": "make stop",
-    "rebuild": "make rebuild",
-    "logs": "make logs",
-    "package": "tsc",
+    "start": "node dist/index.js",
+    "m:build": "make build",
+    "m:start": "make start",
+    "m:stop": "make stop",
+    "m:rebuild": "make rebuild",
+    "m:logs": "make logs",
+    "build": "tsc",
     "build:watch": "tsc --watch"
   },
   "keywords": [
