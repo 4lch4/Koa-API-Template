@@ -1,7 +1,7 @@
 {
   "name": "koa-api-template",
   "displayName": "Koa API Template",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple template for an API using Koa.",
   "main": "dist/index.js",
   "license": "MIT",
