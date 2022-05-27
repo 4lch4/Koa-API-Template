@@ -1,3 +1,5 @@
+![Codacy grade](https://img.shields.io/codacy/grade/63435c2183e449558f955c6f5e80fd22?style=flat-square) [![CI/CD Pipeline](https://github.com/4lch4/Koa-API-Template/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/4lch4/Koa-API-Template/actions/workflows/main.yml) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/4lch4/Koa-API-Template?style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/4lch4/Koa-API-Template?style=flat-square)
+
 # Koa API Template
 
 This repository is my template/starter project for creating an API written in TypeScript and using the Koa.js framework.
@@ -22,3 +24,4 @@ This table provides information regarding the dependencies used by the applicati
 |         `prettier`          | Prettier is an opinionated code formatter                                             |      Optional       | **devDependencies** |
 |          `ts-node`          | TypeScript execution environment and REPL for node.js, with source map support        |      Optional       | **devDependencies** |
 |        `typescript`         | TypeScript is a language for application scale JavaScript development                 |      Optional       | **devDependencies** |
+
