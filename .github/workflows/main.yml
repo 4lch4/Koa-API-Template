@@ -27,9 +27,5 @@ jobs:
 
       - name: Publish Code
         run: npm publish --access public
-
-      # - name: Codecov
-      #   uses: codecov/codecov-action@v2.1.0
-      #   with:
-      #     # Specify whether or not CI build should fail if Codecov runs into an error during upload
-      #     fail_ci_if_error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
