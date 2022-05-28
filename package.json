@@ -1,5 +1,5 @@
 {
-  "name": "koa-api-template",
+  "name": "@4lch4/koa-api-template",
   "displayName": "Koa API Template",
   "version": "0.3.0",
   "description": "A simple template for an API using Koa.",
